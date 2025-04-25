@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduGuide FAQ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>EduGuide FAQ</h1>
+    <div class="category-buttons">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="counselling">Counselling</button>
+      <button class="filter-btn" data-category="scholarships">Scholarships</button>
+      <button class="filter-btn" data-category="visa">Visa</button>
+      <button class="filter-btn" data-category="services">Services</button>
+      <button class="filter-btn" data-category="pricing">Pricing</button>
+      <button class="filter-btn" data-category="application">Application Timelines</button>
+    </div>
+  </header>
+  <div class="search-container">
+    <input type="text" id="faq-search" placeholder="Search FAQ..." />
+  </div>
+
+  <main id="faq-container">
+    <section class="faq-item" data-category="counselling">
+      <button class="question">What does EduGuide's counselling include?</button>
+      <div class="answer">
+        <p>EduGuide provides personalized one-on-one counselling to help students identify the right courses and institutions abroad based on their profile and goals.</p>
+        <div class="feedback"><span>Did this help?</span><button class="thumb up">👍</button><button class="thumb down">👎</button></div>
+      </div>
+    </section>
+
+    <section class="faq-item" data-category="scholarships">
+      <button class="question">Does EduGuide help with finding scholarships?</button>
+      <div class="answer">
+        <p>Yes, we assist in identifying and applying for scholarships that match your qualifications and intended study destination.</p>
+        <div class="feedback"><span>Did this help?</span><button class="thumb up">👍</button><button class="thumb down">👎</button></div>
+      </div>
+    </section>
+
+    <section class="faq-item" data-category="visa">
+      <button class="question">Do you provide visa assistance?</button>
+      <div class="answer">
+        <p>Absolutely. EduGuide guides students through the entire visa application process, including document preparation and mock interviews.</p>
+        <div class="feedback"><span>Did this help?</span><button class="thumb up">👍</button><button class="thumb down">👎</button></div>
+      </div>
+    </section>
+
+    <section class="faq-item" data-category="services">
+      <button class="question">What services does EduGuide offer?</button>
+      <div class="answer">
+        <p>Our services include university shortlisting, application support, SOP editing, visa processing, and post-arrival guidance.</p>
+        <div class="feedback"><span>Did this help?</span><button class="thumb up">👍</button><button class="thumb down">👎</button></div>
+      </div>
+    </section>
+
+    <section class="faq-item" data-category="pricing">
+      <button class="question">Is EduGuide's counselling service free?</button>
+      <div class="answer">
+        <p>We offer both free and premium counselling plans, depending on the level of support required. Basic guidance is often complimentary.</p>
+        <div class="feedback"><span>Did this help?</span><button class="thumb up">👍</button><button class="thumb down">👎</button></div>
+      </div>
+    </section>
+
+    <section class="faq-item" data-category="application">
+      <button class="question">When should I start my application process?</button>
+      <div class="answer">
+        <p>It’s best to start your application 8-12 months before your intended intake, to allow enough time for test prep, document collection, and processing.</p>
+        <div class="feedback"><span>Did this help?</span><button class="thumb up">👍</button><button class="thumb down">👎</button></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
